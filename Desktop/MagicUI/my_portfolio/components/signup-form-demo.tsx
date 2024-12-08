@@ -45,7 +45,7 @@ export default function SignupFormDemo() {
           type="button"
         >
           <Link
-            href="mailto:your-email@example.com" // Replace with your actual email
+            href="mailto:karankendreg@gmail.com" // Replace with your actual email
             className="flex space-x-2"
           >
             {/* You can replace the icon below with any email icon you want */}
