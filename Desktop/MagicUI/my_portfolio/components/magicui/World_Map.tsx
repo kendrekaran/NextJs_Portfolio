@@ -7,9 +7,9 @@ export function WorldMapDemo() {
     <div className=" py-20 flex flex-col items-center justify-center bg-black  w-full">
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl text-white ">
-        Remote  {" "}
+        Remote Freelance {" "}
           <span className="text-blue-500">
-            {"Freelance Services".split("").map((word, idx) => (
+            {" Services".split("").map((word, idx) => (
               <motion.span
                 key={idx}
                 className="inline-block"
