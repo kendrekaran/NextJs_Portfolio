@@ -3,7 +3,9 @@ import SignupFormDemo from './signup-form-demo'
 
 const Contact = () => {
   return (
-    <div className='py-10 sm:py-0'>
+    <div 
+      id="contact"
+className='py-10 sm:py-0'>
         <SignupFormDemo/>
     </div>
   )
