@@ -24,7 +24,7 @@ export const GlareCard = ({
       y: 0,
     },
   });
-  const containerStyle = {
+  const containerStyle : Record<string, string> = {
     "--m-x": "50%",
     "--m-y": "50%",
     "--r-x": "0deg",

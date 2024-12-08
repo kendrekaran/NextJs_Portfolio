@@ -8,9 +8,7 @@ import Link from "next/link";
 import {
   IconBrandCodecov,
   IconBrandGithub,
-  IconBrandGoogle,
   IconBrandLinkedin,
-  IconBrandOnlyfans,
   IconBrandTwitter,
 } from "@tabler/icons-react";
 
@@ -31,7 +29,7 @@ export default function SignupFormDemo() {
           Contact <span className="text-blue-500">Me</span>
         </h2>
         <p className="text-sm md:text-base max-w-md text-neutral-300 px-8">
-          Have a project in mind? I’d love to hear from you! Reach out to me, and let's turn your ideas into reality.
+          Have a project in mind? I&apos;d love to hear from you! Reach out to me, and let's turn your ideas into reality.
         </p>
 
         <div className="flex flex-col space-y-4 w-full max-w-xs">

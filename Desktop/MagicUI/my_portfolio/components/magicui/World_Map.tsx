@@ -7,9 +7,9 @@ export function WorldMapDemo() {
     <div className=" py-20 flex flex-col items-center justify-center bg-black  w-full">
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl text-white ">
-          Remote{" "}
+        Remote  {" "}
           <span className="text-blue-500">
-            {"Connectivity".split("").map((word, idx) => (
+            {"Freelance Services".split("").map((word, idx) => (
               <motion.span
                 key={idx}
                 className="inline-block"
@@ -23,9 +23,7 @@ export function WorldMapDemo() {
           </span>
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
-          Break free from traditional boundaries. Work from anywhere, at the
-          comfort of your own studio apartment. Perfect for Nomads and
-          Travellers.
+        I offer the flexibility to work from anyone — whether from the same country or different. I provide tailored solutions for clients around the globe, perfect for those who value creativity, independence, and efficiency.
         </p>
       </div>
       <WorldMap

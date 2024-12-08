@@ -5,9 +5,7 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
   IconBrandX,
-  IconExchange,
   IconHome,
-  IconNewSection,
   IconTerminal2,
 } from "@tabler/icons-react";
 import { RiLinkedinLine } from "react-icons/ri";

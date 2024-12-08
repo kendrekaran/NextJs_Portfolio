@@ -75,7 +75,7 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		animation: {
-  			spotlight: 'spotlight 2s ease .75s 1 forwards',
+			spotlight: "spotlight 2s ease .75s 1 forwards",
   			grid: 'grid 15s linear infinite',
   			'shiny-text': 'shiny-text 8s infinite',
   			'shimmer-slide': 'shimmer-slide var(--speed) ease-in-out infinite alternate',
@@ -86,16 +86,16 @@ const config: Config = {
   		},
   		keyframes: {
 			
-  			spotlight: {
-  				'0%': {
-  					opacity: '0',
-  					transform: 'translate(-72%, -62%) scale(0.5)'
-  				},
-  				'100%': {
-  					opacity: '1',
-  					transform: 'translate(-50%,-40%) scale(1)'
-  				}
-  			},
+			spotlight: {
+				"0%": {
+				  opacity: 0,
+				  transform: "translate(-72%, -62%) scale(0.5)",
+				},
+				"100%": {
+				  opacity: 1,
+				  transform: "translate(-50%,-40%) scale(1)",
+				},
+			},
   			grid: {
   				'0%': {
   					transform: 'translateY(-50%)'
