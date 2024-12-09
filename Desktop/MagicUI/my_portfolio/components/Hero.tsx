@@ -8,7 +8,7 @@ import Button from './ui/Button';
 
 const Hero = () => {
   return (
-    <div id='hero' className="md:min-h-screen h-screen w-full px-4 md:px-16 lg:px-72 py-10 md:py-32 ">
+    <div id='hero' className=" min-h-screen w-full px-4 md:px-16 lg:px-72 py-10 md:py-32 ">
       <div className=''>
       <Spotlight className='top-16  left-10 md:left-32 md:top-20 h-screen' fill="white"/>
       </div>
