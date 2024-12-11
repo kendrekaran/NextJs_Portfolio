@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="https://i.imgur.com/gxXPRHb.png" />
+        <link rel="icon" href="https://i.ibb.co/wgKNN52/android-chrome-512x512.png" />
         </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
