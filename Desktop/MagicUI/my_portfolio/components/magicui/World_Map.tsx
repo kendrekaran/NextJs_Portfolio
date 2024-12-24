@@ -23,7 +23,7 @@ export function WorldMapDemo() {
           </span>
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
-        I offer the flexibility to work from anyone — whether from the same country or different. I provide tailored solutions for clients around the globe, perfect for those who value creativity, independence, and efficiency.
+        I offer the flexibility to work for anyone — whether from the same country or different. I provide tailored solutions for clients around the globe, perfect for those who value creativity, independence, and efficiency.
         </p>
       </div>
       <WorldMap
