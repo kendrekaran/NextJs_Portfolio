@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { 
   SiHtml5, SiCss3, SiJavascript, SiTailwindcss, 
   SiTypescript, SiReact, SiNodedotjs, SiExpress,
-  SiMongodb,SiPostgresql
+  SiMongodb,SiNextdotjs
 } from "react-icons/si";
 
 
@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
     { name: "Express.js", icon: SiExpress, color: "text-orange-500" },
     { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
     { name: "MongoDB", icon: SiMongodb, color: "text-green-700" },
-    { name: "Postgresql", icon: SiPostgresql, color: "text-blue-500" }
+    { name: "Next JS", icon: SiNextdotjs, color: "text-white" }
   ]);
 
   return (

@@ -6,3 +6,14 @@ body {
   font-family: sans-serif;
   background-color: black;
 }
+
+.bg-grid-small-white {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+
+.bg-gradient-radial {
+  background-image: radial-gradient(circle at center, var(--tw-gradient-from) 0, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
+}
