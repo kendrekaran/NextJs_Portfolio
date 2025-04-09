@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import {
   IconBrandCodecov,
@@ -15,14 +16,20 @@ export default function SignupFormDemo() {
   return (
     <div
       id="contact"
-      className="w-full mx-auto h-full min-h-screen flex flex-col md:flex-row items-center justify-center p-6 md:p-8 bg-black rounded-none md:rounded-2xl shadow-lg"
+      className="w-full md:mb-24 mx-auto h-full  flex flex-col md:flex-row items-center justify-center p-6 md:p-8 bg-black rounded-none md:rounded-2xl shadow-lg"
     >
       {/* Contact Info Section */}
       <section className="flex flex-col items-center md:w-1/2 text-center space-y-6 md:space-y-8">
-        <h2
-          className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-[#f1f5f966] via-[#f1f5f9] to-[#f1f5f966] text-transparent bg-clip-text" >
-          Contact <span className="text-blue-500">Me</span>
-        </h2>
+        <div className="text-3xl md:text-5xl text-white lg:text-6xl font-bold  relative inline-block">
+            Contact <span className="text-blue-500">Me</span>
+            <motion.div 
+              className="absolute -bottom-2 left-0 right-0 h-1 bg-blue-500 rounded-full"
+              initial={{ width: "0%" }}
+              whileInView={{ width: "100%" }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, delay: 0.5 }}
+            />
+          </div>
         <p className="text-sm md:text-base max-w-md text-neutral-300 px-8">
           Have a project in mind? I&apos;d love to hear from you! Reach out to me, and let&apos;s turn your ideas into reality.
         </p>
@@ -33,7 +40,7 @@ export default function SignupFormDemo() {
           className="relative group/btn flex space-x-2 items-center justify-start px-4 py-2 rounded-md font-medium bg-zinc-900 text-neutral-300 shadow-lg hover:shadow-xl transition-all"
           type="button"
         >
-          <Link href="https://twitter.com/kendrekaran_" target="_blank" rel="noopener noreferrer" className="flex space-x-2">
+          <Link href="https://twitter.com/karaan_dev" target="_blank" rel="noopener noreferrer" className="flex space-x-2">
             <IconBrandTwitter className="h-5 w-5" />
           <span>Twitter</span>
           </Link>
@@ -80,17 +87,6 @@ export default function SignupFormDemo() {
           <BottomGradient />
         </button>
 
-        
-        <button
-          className="relative group/btn flex flex-row space-x-2 items-center justify-start px-4 py-2 rounded-md font-medium bg-zinc-900 text-neutral-300 shadow-lg hover:shadow-xl transition-all"
-          type="button"
-        >
-          <Link href="https://karank.tech" target="_blank" rel="noopener noreferrer" className="flex space-x-2">
-            <IconBrandCodecov className="h-5 w-5" />
-            <span>Porfolio</span>
-          </Link>
-          <BottomGradient />
-        </button>
       </div>
 
       </section>

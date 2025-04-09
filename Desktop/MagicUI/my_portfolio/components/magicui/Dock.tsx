@@ -24,11 +24,11 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: "Freelancing",
+      title: "Projects",
       icon: (
         <IconTerminal2 className="h-full w-full text-white  dark:text-white " />
       ),
-      href: "#freelancing",
+      href: "#projects",
     },
     {
       title: "Skills",
@@ -50,7 +50,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandX className="h-full w-full text-white  dark:text-white " />
       ),
-      href: "https://twitter.com/kendrekaran_",
+      href: "https://twitter.com/karaan_dev",
     },
     {
       title: "GitHub",

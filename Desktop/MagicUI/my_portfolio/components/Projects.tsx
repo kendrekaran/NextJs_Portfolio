@@ -116,17 +116,27 @@ export default function Projects() {
     <section id="projects" className="py-20 bg-black text-white w-full">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         {/* Section Header */}
-        <div className="text-center mb-16"><motion.h2
-          className="text-4xl lg:text-7xl font-bold mb-12 text-center bg-gradient-to-r from-[#f1f5f966] via-[#f1f5f9] via-51% to-[#f1f5f966] text-transparent bg-clip-text"
+        <div className="text-center mb-16">
+        <motion.div
+          className="text-4xl lg:text-6xl font-bold mb-4 text-center bg-gradient-to-r from-[#f1f5f966] via-[#f1f5f9] via-51% to-[#f1f5f966] text-transparent bg-clip-text"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          My <span className="text-blue-500">Projects</span>
-        </motion.h2>
-          <div className="h-1 w-20 bg-blue-500 mx-auto mt-2"></div>
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-sm md:text-base">
+          
+          <h2 className="text-3xl md:text-5xl text-white lg:text-6xl font-bold relative inline-block">
+            My <span className="text-blue-500">Projects</span>
+            <motion.div 
+              className="absolute -bottom-2 left-0 right-0 h-1 bg-blue-500 rounded-full"
+              initial={{ width: "0%" }}
+              whileInView={{ width: "100%" }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, delay: 0.5 }}
+            />
+          </h2>
+        </motion.div>
+          <p className="text-gray-400  max-w-lg mx-auto text-sm md:text-base">
             A showcase of my web development journey, featuring full-stack applications, mini projects, and landing
             pages.
           </p>
