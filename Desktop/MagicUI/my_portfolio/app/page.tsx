@@ -4,7 +4,6 @@ import '../app/globals.css';
 import Skills from "@/components/Tech_Stack";
 import { FloatingDockDemo } from "@/components/magicui/Dock";
 import Contact from "@/components/Contact";
-import { WorldMapDemo } from "@/components/magicui/World_Map";
 import Projects from "@/components/Projects";
 
 export default function Home() {

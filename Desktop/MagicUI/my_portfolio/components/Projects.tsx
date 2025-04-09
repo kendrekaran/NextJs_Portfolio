@@ -24,7 +24,7 @@ interface Project {
 
 export default function Projects() {
   const [activeTab, setActiveTab] = useState<"fullstack" | "mini" | "landing">("fullstack")
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+  const [, setHoveredIndex] = useState<number | null>(null)
 
   const projects: Record<string, Project[]> = {
     fullstack: [
